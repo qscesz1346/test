@@ -1,0 +1,88 @@
+#allinfo {
+    padding: 0 10%;
+}
+#allinfo > * {
+    margin: 2% 0;
+}
+#mypagemain {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+/* ----------------------------------------------------- */
+
+/* --------------------------SIDEMENU--------------------------- */
+#menu{
+    /* position: relative; */
+    top: 80px;
+    left: 50px;
+    width: 150px;
+}
+#mylist{
+    border-bottom: 1px solid lightgray;
+    
+}
+#logout{
+    /* position: absolute; */
+    top: 120px;
+}
+/* ----------------------------------------------------- */
+
+/* -------------------------CONTENT---------------------------- */
+#title{
+    /* position: absolute; */
+    top: 280px;
+    left: 480px;
+}
+hr{
+    width: 400px;
+    /* position: absolute; */
+    left: 600px;
+    top: 310px;
+    background-color: lightgray;
+}
+#mypageimg{
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    left: 725px;
+}
+.mypagebtn {
+    /* position: absolute; */
+    top: 510px;
+    left: 735px;
+    width: 80px;;
+    height: 40px;
+    background-color: #293d33;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+table{
+    /* position: absolute; */
+    left: 530px;
+    top: 630px;
+    width: 500px;
+}
+tr{
+    height: 60px;
+}
+td{
+    padding-left: 20px;
+}
+.infotitle{
+    width: 100px;
+    background-color: #98E3BE;
+    color: #293d33;
+}
+#allinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ----------------------------------------------------- */

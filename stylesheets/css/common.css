@@ -1,0 +1,23 @@
+@import "header.css";
+@import "footer.css";
+@import "nav.css";
+
+
+body{
+    overflow-x: hidden;
+    margin-left:0px; padding:0px;
+    font-family: 'nanumR';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 20px;
+}

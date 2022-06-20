@@ -1,0 +1,106 @@
+#infomodifymain {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+}
+/* --------------------------------------------------- */
+
+/* --------------------------SIDEMENU--------------------------- */
+#menu{
+    /* position: relative; */
+    top: 80px;
+    left: 50px;
+    width: 150px;
+}
+#mylist{
+    border-bottom: 1px solid lightgray;
+    
+}
+#logout{
+    /* position: absolute; */
+    top: 120px;
+}
+/* --------------------------------------------------- */
+
+/* -------------------------CONTENT---------------------------- */
+
+#title{
+    /* position: absolute; */
+    top: 280px;
+    left: 480px;
+}
+#title + div {
+    width: 80%;
+    /* position: absolute; */
+    margin: 0 auto;
+}
+#fixedcontent{
+    /* position: absolute; */
+    top: 400px;
+    left: 500px;
+    /* margin-bottom: 100px; */
+    color: #7e7e7e;
+    font-size: 14px;
+
+}
+#photobtn{
+    /* position: absolute; */
+    top: 510px;
+    left: 555px;
+    width: 70px;
+    margin-bottom: 5%;
+}
+.infomodifybtn {
+    margin-left: 15px;
+    width: 60px;
+    height: 30px;
+    background-color: #293d33;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: '나눔스퀘어기본';
+    font-size: 10px;
+    cursor: pointer;
+}
+table{
+    /* position: absolute; */
+    left: 500px;
+    top: 630px;
+    width: 500px;
+}
+tr{
+    height: 60px;
+}
+td{
+    padding-left: 20px;
+}
+input{
+    height: 25px;
+    margin-bottom: 5px;
+}
+select{
+    height: 30px;
+}
+.modifycontent{
+    padding-left: 50px;
+}
+#modifybtn{
+    /* position: absolute; */
+    /* top: 1200px;
+    left: 670px; */
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+#modifyall {
+    /* padding: 0 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* --------------------------------------------------- */

@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'nanumB';
+    src: url(../fonts/NanumSquareB.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'nanumEB';
+    src: url(../fonts/NanumSquareEB.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'nanumL';
+    src: url(../fonts/NanumSquareL.ttf);
+}
+
+@font-face {
+    font-family: 'nanumR';
+    src: url(../fonts/NanumSquareR.ttf);
+}
+
+@keyframes loginmove {
+    from {
+        top: 100%;
+    }
+
+    to {
+        top: 3%;
+    }
+}
+
+@keyframes loginhide {
+    from {
+        top: 3%;
+    }
+
+    to {
+        top: -100%;
+    }
+}
+
+@keyframes modalimgon {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 10px;
+    }
+}
+@keyframes modalimgoff {
+    from {
+        left: 10px;
+    }
+    to {
+        left: -100%;
+    }
+}
+@keyframes modalon {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@keyframes modaloff {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+@keyframes modaldivon1 {
+    from {
+        left: -74%;
+    }
+    to {
+        left: 28%;
+    }
+}
+@keyframes modaldivoff1 {
+    from {
+        left: 28%;
+    }
+    to {
+        left: -74%;
+    }
+}
+@keyframes modaldivon2 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 2%;
+    }
+}
+@keyframes modaldivoff2 {
+    from {
+        left: 2%;
+    }
+    to {
+        left: -100%;
+    }
+}
+@keyframes modaldivon3 {
+    from {
+        left: -87%;
+    }
+    to {
+        left: 15%;
+    }
+}
+@keyframes modaldivoff3 {
+    from {
+        left: 15%;
+    }
+    to {
+        left: -87%;
+    }
+}
+@keyframes offmyin {
+    from {
+        right: -50%;
+    }
+    to {
+        right: 0;
+    }
+}
+@keyframes offmyout {
+    from {
+        right: 0;
+    }
+    to {
+        right: -50%;
+    }
+}
+
+
+
+@media screen and (max-width:1920px){
+    .swiper-container{
+        width: 80%;
+        height: 50%;
+    }
+    #swiper-banner{
+        overflow: hidden;
+        margin: 0 10%;
+    }
+}
+@media screen and (max-width:500px) {
+    
+}
+
+#navdiv {
+    margin-top: 12%;
+}
+
+#hosue_list_1 {
+    height: 100px;
+    width: 80%;
+}
+
+#hosue_list_2 {
+    height: 100px;
+    width: 80%;
+}
+
+.hrline {
+    width: 85%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.swiper-slide>img {
+    /* position: relative; */
+    width: 230px;
+    height: 270px;
+    /* object-fit: cover; */
+    margin: 50px 5px;
+    margin-bottom: 10px;
+    transition: 1s;
+    /* z-index: 9999; */
+    cursor: pointer;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'nanumB';
+    font-size: 16px;
+}
+
+.housemodal {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 1px;
+    height: 1px;
+    display: none;
+    box-shadow: 5px 5px 5px rgb(94,94,94);
+    transition: 1s;
+    border-left: 10px solid #98E3BE;
+    border-top: 10px solid #98E3BE;
+    background-color: white;
+}
+
+.housemodal img {
+    width: 320px;
+    height: 320px;
+    margin: 10px 10px;
+    transition: 1s;
+    z-index: 0;
+    /* opacity: 0; */
+    display: none;
+}
+
+.modalinfo1 {
+    position: fixed;
+    left: 28%;
+    top: 3%;
+    width: 35%;
+    height: 30%;
+}
+
+.modalinfo1 p {
+    line-height: 30px;
+}
+
+.modalinfo2 {
+    position: fixed;
+    left: 2%;
+    top: 52%;
+    width: 35%;
+    height: 20%;
+
+}
+
+.modalinfo3 {
+    position: fixed;
+    left: 28%;
+    top: 52%;
+    width: 35%;
+    height: 15%;
+}
+
+.modalinfo4 {
+    position: fixed;
+    left: 28%;
+    top: 70%;
+    width: 35%;
+    height: 10%;
+}
+
+.modalinfo5 {
+    position: fixed;
+    left: 15%;
+    top: 90%;
+    width: 35%;
+    height: 10%;
+}
+.modalinfo5 button {
+    margin-left: 3%;
+    border: none;
+    border-radius: 10px;
+    background-color: #293D33;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+.modalinfo5 button:hover {
+    background-color: rgb(136,202,169);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modalimg {
+    box-shadow:0 0 5px #555;
+}
+
+#house_list_1,
+#house_list_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#house_list_1 img,
+#house_list_2 img {
+    width: 40px;
+    height: 40px;
+}
+
+#house_list_1 span,
+#house_list_2 span {
+    font-family: 'nanumEB';
+    font-size: 32px;
+    display: inline;
+    margin-left: 10px;
+}
+
+#ad {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid gray; */
+}
+
+#ad label {
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'nanumB';
+    font-size: 28px;
+}
+
+.swiper {
+    margin-bottom: 5%;
+    
+}
+
+
+.swiper>.swiper-wrapper>.swiper-slide {
+    width: 80%;
+    height: 300px;
+}
+
+.swiper>.swiper-wrapper>.swiper-slide a img {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    display: block;
+    text-align: center;
+}
+
+.swiper-pagination2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.swiper-pagination1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.swiper-pagination-bullet {background-color: #5E5E5E;}
+
+#login {
+    display: none;
+}
+
+#BG {
+    display: none;
+}
+
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../stylesheets/css/infomodify.css">
+    <link rel="stylesheet" href="../stylesheets/css/common.css">
+    <link rel="stylesheet" href="../stylesheets/css/main.css">
+</head>
+
+<body ondragstart="return false">
+
+
+    <header>
+        <div class="wrap">
+            <div class="logo">
+                <a href="main-logined.html">
+                    <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                </a>
+                <div id="inputicon">
+                    <input type="text" class="input-box">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <a href="mypage.html" class="loginedicon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1370/1370267.png" alt="loginedIcon">
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="infomodifymain">
+        <div id="menu">
+            <ul id="mylist">
+                <li><a href="mypage.html">내 정보</a></li>
+                <li><a href="#">위시리스트</a></li>
+                <li><a href="#">예약</a></li>
+            </ul>
+            <ul id="logout">
+                <li><a href="main.html">로그아웃</a></li>
+                <li><a href="#">회원탈퇴</a></li>
+            </ul>
+        </div>
+        <div id="modifyall">
+            <div id="title">
+                <h1>내 정보 수정</h1>
+            </div>
+            <div>
+                <hr>
+            </div>
+
+            <table id="fixedcontent" style="width: 600px;">
+                <tr>
+                    <td style="padding-left: 65px; padding-bottom: 20px; vertical-align: center;">
+                        <img style="width: 80px; height: 80px;" src="../stylesheets/images/user.png" alt="userlogo"><br>
+
+                    </td>
+                    <td style="padding-right: 150px;">
+                        <ul>
+                            <li>전원우</li>
+                            <li>ID들어감</li>
+                            <li>1996년 07월 17일</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <button id="photobtn" class="infomodifybtn" onclick="location.href='#'">사진 업로드</button>
+
+            <table style="padding-top: 50px; border-top: 2px solid lightgray;">
+                <tr>
+                    <td>닉네임</td>
+                    <td class="modifycontent"><input type="text" style="width: 200px;"> <button
+                            onclick="location.href='#'" class="infomodifybtn">중복확인</button></td>
+                </tr>
+                <tr>
+                    <td style="width: 100px;">비밀번호</td>
+                    <td class="modifycontent"><input type="text" style="width: 200px;"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호<br>확인</td>
+                    <td class="modifycontent"><input type="text" style="width: 200px;"></td>
+                </tr>
+                <tr>
+                    <td>휴대전화</td>
+                    <td class="modifycontent">
+                        <select name="phone" style="width: 70px;">
+                            <option value="010">010</option>
+                            <option value="011">011</option>
+                            <option value="012">012</option>
+                        </select>
+                        - <input type="text" style="width: 70px;"> - <input type="text" style="width: 70px;"></td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td class="modifycontent"><input type="text" style="width: 150px;"> <span
+                            style="font-size: 9px;">@</span>
+                        <select name="email" style="width: 100px;">
+                            <option value="naver">naver.com</option>
+                            <option value="daum">daum.net</option>
+                            <option value="kakao">kakao.com</option>
+                            <option value="gmail">gmail.com</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">주소</td>
+                    <td class="modifycontent"><input type="text" style="width: 70px;"> <button
+                            onclick="location.href='#'" class="infomodifybtn">우편번호</button><br>
+                        <input type="text" style="width: 300px;"> <br>
+                        <input type="text" style="width: 300px;" placeholder="추가주소입력">
+
+                    </td>
+                </tr>
+            </table>
+            <button id="modifybtn" onclick="location.href='#'" class="infomodifybtn">수정</button>
+
+        </div>
+    </div>
+
+
+    <div class="footer-top">
+        <div class="footer-menu">
+            <ul>
+                <li><a href=""><h4>VIRBNB</h4></a></li>
+                <li><a href="">회사소개</a></li>
+                <li><a href="">회원혜택 안내</a></li>
+            </ul>
+            <ul>
+                <li><a href=""><h4>고객센터</h4></a></li>
+                <li><a href="">공지사항</a></li>
+                <li><a href="">자주찾는질문</a></li>
+                <li><a href="">예약확인</a></li>
+            </ul>
+            <ul>
+                <li><a href=""><h4>ESG</h4></a></li>
+                <li><a href="">그린 앰버서더</a></li>
+                <li><a href="">캠페인 기부</a></li>
+            </ul>
+        </div>
+        <div class="footer-app" >
+            <div class="footer-app-info">
+                <div>
+                    <h4><a href="">App 다운로드</a></h4>
+                    <span>VIRBNB 앱 설치하고</span><br>
+                    <span>더 편리하게 이용하세요.</span>
+                </div>
+                <div class="footer-app-Btn">
+                    <button class="footer-app-Btn-style">구글플레이</button>
+                    <button class="footer-app-Btn-style">앱스토어</button>
+                </div>
+            </div>
+            <div class="footer-app-QR">
+                <img src="../stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+            </div>
+            
+        </div>
+        <div class="footer-center">
+            <div class="footer-center-info">
+                <h4>전화예약/고객상담</h4>
+                <span>이용에 궁금하신 점이</span><br>
+                <span>있으신가요?</span>
+            </div>
+            <div>
+                <img src="../stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                <img src="../stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                <img src="../stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                <img src="../stylesheets/images/share.png" class="footer-icon-img" alt="">
+                
+            </div>
+            <div>
+                <h4>1500-0000</h4>
+                <div>
+                    <label>평일</label>
+                    <span>09:00 ~ 18:00</span>
+                </div>
+                <div>
+                    <label>점심시간</label>
+                    <span>12:00 ~ 13:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom" >
+        <div class="footer-bottom-info">
+            <div class="footer-bottom-menu" >
+                <span>개인정보처리방침 | 이용약관</span>
+            </div>
+            <div>
+                <span>(주)VIRBNB 대표 : 이동관 |</span>
+                <span>사업자등록번호 : 100-00-00000 </span>
+                <button class="footer-bottom-Btn-style">사업자등록번호</button>
+                <span> | 관광사업자 등록번호 : 제2022-06호</span>
+            </div>
+            <div>
+                <p>대구광역시 중구 중앙대로 336 반월센트럴타워</p>
+                <span>전화 : 053-000-0000 | email : virbnb@virbnb.co.kr</span>
+            </div>
+            <div>
+                <span>copyright (c) 2022 virbnb</span>
+            </div>
+        </div>
+        <div class="footer-bottom-logo">
+            <img src="../stylesheets/images/logo.png" alt="" class="footer-logo-img">
+        </div>
+    </div>
+
+</body>
+
+
+
+
+
+</html>

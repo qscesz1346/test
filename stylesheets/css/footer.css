@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'nanumB';
+    src: url(../fonts/NanumSquareB.ttf);
+}
+@font-face {
+    font-family: 'nanumEB';
+    src: url(../fonts/NanumSquareEB.ttf);
+}
+@font-face {
+    font-family: 'nanumL';
+    src: url(../fonts/NanumSquareL.ttf);
+}
+@font-face {
+    font-family: 'nanumR';
+    src: url(../fonts/NanumSquareR.ttf);
+}
+
+
+
+@media screen and (min-width:0px) {
+    .footer-top{
+        flex-direction: column;
+        border-top: 1px solid lightgray;
+    }
+    .footer-top>.footer-menu{
+        border-right: none;
+        border-left: none;
+        text-align: center;
+        width: 500px;
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .footer-top>.footer-app{
+        border-right: none;
+        border-left: none;
+        border-top: 1px solid lightgray;
+        width: 500px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .footer-top>.footer-center{
+        border-right: none;
+        border-left: none;
+        border-top: 1px solid lightgray;
+        width: 500px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .footer-bottom{
+        visibility: hidden;
+    }
+}
+@media screen and (min-width:769px) {
+    .footer-top{
+        display: flex;
+        flex-direction: row;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    .footer-top>.footer-menu{
+        border-right: 1px solid lightgray;
+        border-top: none;
+        text-align: center;
+        display: flex;
+    }
+    .footer-top>.footer-app{
+        border-top: none;
+        border-right: 1px solid lightgray;
+        display: flex;
+        margin-top: 5px;
+    }
+    .footer-top>.footer-center{
+        border-right: none;
+        border-left: none;
+        border-top: none;
+    }
+    .footer-bottom{
+        visibility: visible;
+    }
+}
+
+
+h4{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+h4>a{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+}
+body {
+    margin: 0 auto;
+    /* padding: 0 10%; */
+}
+.footer-app{
+    display:flex;
+    justify-content: space-around;
+    border-right: 1px solid lightgray;
+    text-align:center;
+    width:33%;
+}
+.footer-app-Btn{
+    margin-top:8%;
+}
+.footer-app-Btn-style{
+    border: none;
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(136,202,169);
+    color:white;
+    cursor: pointer;
+    font-family: 'nanumR';
+}
+.footer-app span{
+    font-size: 12px;
+}
+.footer-app-QR{
+    margin-top:2%;
+}
+.footer-bottom{
+    background-color: rgb(136,202,169);
+    width:100%;
+    height: 250px;
+    display: flex; justify-content: space-around; 
+}
+.footer-bottom-Btn-style{
+    border-radius: 10px;
+    border:1px solid rgb(232, 228, 228);
+    color:white;
+    font-family: 'nanumR';
+    background-color: rgb(136,202,169);
+}
+.footer-bottom-info{
+    width:80%; 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-bottom-logo{
+    margin-top:2%;
+}
+.footer-center{
+    font-size:12px; 
+    width:33%;
+    text-align:center;
+    margin:5px 0 0 3%;
+}
+.footer-center-info{
+    margin:3% 0;
+}
+.footer-icon-img{
+    width: 30px; height:30px; 
+   
+}
+.footer-logo-img{
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(39, 40, 41, 0.283);
+}
+.footer-menu{
+    display: flex;
+    font-size:12px;
+    border-right: 1px solid lightgray;
+    width:33%;
+    text-align:center;
+    margin-left:0;
+}
+.footer-menu>ul>li{
+    /* margin: 5px 0; */
+    width: 100px;
+}
+ul{
+    display:block;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-menu-info{
+    font-size: 12px; margin-top:2%; margin-bottom: 5%;
+}
+.footer-top{
+    /* border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; */
+    width:100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+}
+p{
+    margin-bottom:0;
+}
